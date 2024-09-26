@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contain">  
+        <h1 class="h1">Tic-Tac-Toe</h1>
+        <!-- gameBoard -->
+        <div class="gameBoard" id="gameBoard">
+            <!-- gameBoardBtn -->
+            <button class="gameBoardBtn" aria-label="Empty cell" tabindex="0"></button>
+            <button class="gameBoardBtn" aria-label="Empty cell" tabindex="0"></button>
+            <button class="gameBoardBtn" aria-label="Empty cell" tabindex="0"></button>
+            <button class="gameBoardBtn" aria-label="Empty cell" tabindex="0"></button>
+            <button class="gameBoardBtn" aria-label="Empty cell" tabindex="0"></button>
+            <button class="gameBoardBtn" aria-label="Empty cell" tabindex="0"></button>
+            <button class="gameBoardBtn" aria-label="Empty cell" tabindex="0"></button>
+            <button class="gameBoardBtn" aria-label="Empty cell" tabindex="0"></button>
+            <button class="gameBoardBtn" aria-label="Empty cell" tabindex="0"></button>
+        </div>
+        <!-- Player -->
+        <div class="player">
+            <!-- playerTurn -->
+            <p class="playerTurn" id="playerTurn">Player X's turn</p>
+            <button class="resetBtn" id="resetBtn">Reset Game</button>
+        </div>
+        <!-- playboxBtn -->
+        <div class="playboxBtn">
+            <button class="twoPlayerBtn" id="twoPlayerBtn">Two Players</button>
+            <button class="aiBtn" id="aiBtn">Play vs AI</button>
+        </div>
+        <!-- gameResult -->
+        <div class="gameResult" id="gameResult"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
